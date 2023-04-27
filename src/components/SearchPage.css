@@ -1,0 +1,48 @@
+.searchPage {
+  flex: 0.8;
+   background-color: #fafafa;
+   padding-left: 15px;
+   padding-top: 10px;
+}
+.searchPage__filter {
+  display: flex;
+  align-items: center;
+  position: relative;
+  padding: 5px;
+  z-index: 50;
+
+}
+
+.filter__icon {
+  font-size: 20px !important;
+  color: #606060;
+}
+.searchPage__filter > h2 {
+  margin-left: 10px;
+  font-size: 14px !important;
+  font-weight: 500 !important;
+}
+
+.searchPage__filter:hover:before{
+    content: "";
+    position: absolute;
+    height: 35px;
+    width: 90px;
+    background-color: #E5E5E5;
+    z-index: -1;
+    top: -2px;
+    left: -4px;
+    border-radius: 20px;
+    transition: 500ms ease-in-out;
+   
+
+}
+
+.searchPage > hr {
+  height: 1px;
+  border: 0;
+  background-color: lightgray;
+  margin-top: 3px;
+  margin-bottom: 10px;
+}
+

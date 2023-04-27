@@ -1,0 +1,50 @@
+.videoCard{
+
+    margin-bottom: 40px;
+    width: 352px;
+    height: 298px;
+}
+
+.videoCard:hover > .videoCard__thumbnail{
+
+    border-radius: 1px;
+}
+
+.videoCard__thumbnail{
+
+    height: 198px ;
+    width: 352px ;
+    border-radius:15px ;
+    transition: 300ms ease-in-out;
+}
+
+
+.videoCard__info{
+    display: flex;
+    margin-top: 10px;
+    padding-right: 30px;
+}
+
+.videoCard__text{
+
+    margin-left: 15px;
+}
+.videoCard__text > h4{
+
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+.videoCard__channel{
+    font-size: 14px;
+    color: gray;
+}
+.videoCard__details{
+font-size: 14px;
+    color: #606060;
+}
+.videoCard__avatar{
+
+    height: 40px !important;
+    width: 40px !important;
+
+}

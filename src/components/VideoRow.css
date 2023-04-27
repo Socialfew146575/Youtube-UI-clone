@@ -1,0 +1,45 @@
+.videoRow {
+  display: flex;
+  margin-bottom: 30px;
+  max-width: 1200px;
+}
+
+.videoRow > img {
+  height: 202px;
+  width: 360px;
+  border-radius: 15px;
+  transition: 300ms ease-in-out;
+}
+
+.videoRow > img:hover {
+  border-radius: 1px;
+}
+
+.videoRow__text > h3 {
+  font-weight: 500;
+}
+
+.videoRow__text {
+ 
+  margin-left: 20px;
+}
+
+.videoRow__description {
+  margin-top: 15px;
+  font-size: 12px;
+  color: #606060;
+}
+
+.videoRow__headline {
+  font-size: 12px;
+  color: #606060;
+  margin-top: 5px;
+}
+
+.videoRow__channel {
+  margin-top: 10px;
+
+  align-items: center;
+  color: #606060;
+  font-size: 14px;
+}

@@ -1,0 +1,274 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background-color: white;
+}
+
+.header__logo {
+  height: 25px;
+  object-fit: contain;
+  margin-left: 20px;
+  
+}
+
+.header__input {
+  display: flex;
+  align-items: center;
+  height: 45px;
+  width: 40%;
+  border: 1px solid grey;
+  border-radius: 30px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-left: 25px;
+  overflow: hidden;
+}
+
+.header__input > input {
+  flex: 1;
+  border: none;
+  height: 50px;
+  font-size: 17px;
+  color: grey;
+  outline: none;
+  font-weight: 500;
+}
+.header__input > input:focus {
+  outline: none;
+  border: none;
+}
+
+.header__input .search__icon {
+  display: flex;
+
+  height: 50px;
+
+  background-color: #fafafa;
+  align-items: center;
+  justify-content: center;
+  transition: 300ms ease-in-out;
+  width: 50px !important;
+}
+.header__input .search__icon:hover {
+  background-color: #e6e6e3;
+}
+.header__inputButton {
+  color: gray;
+}
+.header__right {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header__icon {
+  margin-right: 8px;
+}
+
+.header__menuIcon{
+  pointer-events: auto;
+  
+}
+.header__menuIcon:hover{
+  cursor: pointer;
+}
+.header__left {
+  position: relative;
+  pointer-events: none;
+}
+.header__left::after {
+  content: "";
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  /* background-color: lightgray; */
+  top: -2px;
+  left: -3px;
+  border-radius: 100%;
+  z-index: -1;
+}
+
+.header__left:hover::after{
+
+background-color: lightgray;
+
+
+}
+
+.createVideo__icon{
+  position: relative !important;
+
+}
+
+.createVideo__icon::after{
+
+  content: "";
+  position: absolute;
+  height: 35px;
+  width: 35px;
+/* background-color: red; */
+  top: -5px;
+  left: -7px;
+  z-index: -1;
+    transition: 300ms ease;
+  border-radius: 100%;
+
+}
+
+.createVideo__icon:hover{
+
+  cursor: pointer;
+
+}
+.createVideo__icon:hover::after{
+  background-color: lightgray;
+}
+.createVideo__icon:hover::before{
+ content: "Create";
+  
+  font-size: 13px;
+  position: absolute;
+  height: 18px;
+  width: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  color: #fafafa;
+  border-radius: 5px;
+  padding: 5px;
+  padding-left: 7px;
+  padding-right: 7px;
+    transition: 300ms ease;
+  opacity: 0.6;
+  /* visibility: none; */
+  
+  border:2px solid black;
+
+
+  top: 40px;
+  left: -10px;
+  z-index: -1;
+ 
+}
+.apps__icon{
+  position: relative !important;
+}
+
+.apps__icon::after{
+
+  content: "";
+  position: absolute;
+  height: 35px;
+  width: 35px;
+/* background-color: red; */
+  top: -5px;
+  left: -6px;
+  z-index: -1;
+  border-radius: 100%;
+   transition: 300ms ease;
+
+}
+.apps__icon:hover{
+
+  cursor: pointer;
+
+}
+.apps__icon:hover::after{
+  background-color: lightgray;
+}
+.apps__icon:hover::before{
+   content: "Apps";
+  
+  font-size: 13px;
+  position: absolute;
+    display: flex;
+  justify-content: center;
+
+  height: 18px;
+  width: 35px;
+
+  background-color: black;
+  color: #fafafa;
+  border-radius: 5px;
+  padding: 3px;
+  padding-left: 5px;
+  padding-right: 5px;
+
+    transition: 300ms ease;
+  opacity: 0.6;
+  /* visibility: none; */
+  
+  border:2px solid black;
+
+
+  top: 40px;
+  left: -10px;
+  z-index: -1;
+ 
+}
+
+.notifications__icon{
+  position: relative !important;
+}
+
+.notifications__icon::after{
+
+  content: "";
+  position: absolute;
+  height: 35px;
+  width: 35px;
+/* background-color: red; */
+  top: -5px;
+  left: -6px;
+  z-index: -1;
+   transition: 300ms ease;
+  border-radius: 100%;
+
+}
+.notifications__icon:hover{
+
+  cursor: pointer;
+
+}
+.notifications__icon:hover::before{
+   content: "Notifications";
+  
+  font-size: 13px;
+  position: absolute;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 25px;
+  width: 70px;
+
+  background-color: black;
+  color: #fafafa;
+  border-radius: 5px;
+  padding: 3px;
+  padding-left: 8px;
+  padding-right: 8px;
+
+    transition: 300ms ease;
+  opacity: 0.6;
+  /* visibility: none; */
+  
+  border:2px solid black;
+
+
+  top: 40px;
+  left: -30px;
+  z-index: -1;
+ 
+}
+.notifications__icon:hover::after{
+  background-color: lightgray;
+}
+
+

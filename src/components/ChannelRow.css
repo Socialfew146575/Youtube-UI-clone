@@ -1,0 +1,72 @@
+.channelRow {
+  display: flex;
+  align-items: center;
+  width: 90%;
+ 
+}
+
+.channelRow__text {
+  display: flex;
+  flex-direction: column;
+}
+
+.channelRow__text > p {
+    margin-top: 10px;
+  color: #606060;
+  font-size: small !important;
+}
+.channelRow__logo {
+  height: 140px !important;
+  width: 140px !important;
+  margin: 10px 60px;
+}
+
+.channelRow__text > h4 {
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    gap: 10px;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.subscribeBtn__container{
+  justify-content: flex-end;
+  height: 40px;
+  display: flex;
+  align-items: center;
+}
+
+.subscribe__btn{
+text-align: center;
+  height: 35px;
+  width: 100px;
+  border-radius: 30px;
+  border: none;
+  background-color: black;
+  color: white;
+  font-weight: 500;
+  font-size: 14px;
+  transition: ease-in-out;
+ 
+}
+
+.subscribe__btn:hover{
+  opacity: 0.8;
+}
+
+.subscribed{
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 120px; 
+  background-color: #EEE5E5;
+  color: black;
+
+
+}
+.subscribed:hover{
+  opacity:1;
+  background-color: #D3D3D3;
+}
